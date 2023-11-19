@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(#F89400 50%, #F63B00 50%);
+}
+
+.scoreboard{
+    background-color: #FFB537;
+    width: min(90%, 34em);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 3em;
+    border-radius: 0.5em;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: center;
+
+}
+
+.teamA{
+    text-align: center;
+    background-color: #F89400;
+    padding: 2em;
+    border-radius: 0.5em;
+
+}
+
+.teamB{
+    text-align: center;
+    background-color: #FF5F26;
+    padding: 2em;
+    border-radius: 0.5em;
+}
+
+button{
+    cursor: pointer;
+}
+
+#reset-btn{
+    
+}
