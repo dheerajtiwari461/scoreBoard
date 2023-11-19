@@ -46,5 +46,31 @@ button{
 }
 
 #reset-btn{
-    
+    background-color: transparent;
+    border: 3px solid #D83000;
+    color: #D83000;
+    height: 5em;
+    width: 5em;
+    margin: auto;
+    border-radius: 0.5em;
+}
+
+.team h2{
+    color: #521002;
+}
+
+.btn-container{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+.team button{
+    background-color: #F63B00;
+    border: none;
+    outline: none;
+    padding: 0.3em 0.7em 0;
+    border-radius: 0.3em;
+    font-weight: 600;
+    font-size: 1.3em;
 }
